@@ -9,18 +9,18 @@ body {
 h1 {
   font-family: 'Lato'; Arial, sans-serif;
   font-weight: 900;
-  font-color: red;
+  color: red;
 }
 
 h2 {
   font-family: 'Lato'; Arial, sans-serif;
   font-weight: 700;
-  font-color: orange;
+  color: orange;
 }
 
 p {font-family:'Lato'; Arial, sans-serif;
   font-weight: 400;
-  font-color: white;
+  color: white;
 }
 
 .nav-bar {}
