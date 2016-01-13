@@ -47,12 +47,12 @@ li {
 
 .col-2 {
   width: 16.66%;
-  display: inline;
+  display: inline-block;
 }
 
 .col-8 {
   width: 66.66%;
-  display: inline;
+  display: inline-block;
 }
 
 /*
