@@ -32,6 +32,20 @@ li {
 
 .nav-bar {}
 
+/* 12-column formatting */
+
+.row {
+  width: 100%;
+}
+
+.col-2 {
+  width: 16.66%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
 /*
   font-color: white;
 }
