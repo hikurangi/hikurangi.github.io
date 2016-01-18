@@ -44,6 +44,7 @@ li {
 .nav-bar {
   background-color: white;
   opacity: 0.25;
+  margin: 5px;
 }
 
 /* 12-column formatting */
