@@ -40,6 +40,7 @@ h2 {
 p {
   font-weight: 400;
   color: white;
+  line-height: 160%;
 }
 
 li {
@@ -55,7 +56,6 @@ li {
 
 .vertical-spacer {
   height: 100px;
-  width: 100%;
 }
 
 /* 12-column formatting */
@@ -64,13 +64,11 @@ li {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
-    height: 100%;
 
 .row {
   width: 100%;
   display: flex;
   flex-wrap: wap;
-  height: inherit;
 }
 
 .col-2 {
