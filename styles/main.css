@@ -42,8 +42,8 @@ li {
 }
 
 .nav-bar {
-  background-color: white;
-  opacity: 0.25;
+  background-color: black;
+  background:rgba(255,255,255,0.25);
   padding: 5px;
 }
 
