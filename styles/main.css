@@ -50,6 +50,7 @@ li {
 
 .vertical-spacer {
   height: 18vh;
+  width: 100%;
 }
 
 /* 12-column formatting */
