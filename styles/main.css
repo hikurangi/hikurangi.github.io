@@ -58,6 +58,8 @@ li {
   width: 100%;
   display: flex;
   flex-wrap: wap;
+  height: 33.33%;
+  vertical-align: bottom;
 }
 
 .col-2 {
