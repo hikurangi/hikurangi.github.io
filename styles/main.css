@@ -25,6 +25,7 @@ h1 {
   font-weight: 900;
   color: red;
   text-align: center;
+  vertical-align: bottom;
 }
 
 h2 {
@@ -49,7 +50,6 @@ li {
 
 .vertical-spacer {
   height: 18vh;
-  vertical-align: bottom;
 }
 
 /* 12-column formatting */
