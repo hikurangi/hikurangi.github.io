@@ -21,10 +21,6 @@ body {
 /*  background-color: #1f0059; */
 }
 
-html, body {
-  height: 100%;
-}
-
 h1 {
   font-weight: 900;
   color: red;
