@@ -50,6 +50,7 @@ li {
 .black-box {
   background:rgba(0,0,0,0.45);
   padding: 20px;
+  margin: 0px 20px 0px 20px;
 }
 
 .vertical-spacer {
