@@ -41,7 +41,10 @@ li {
   color: white;
 }
 
-.nav-bar {}
+.nav-bar {
+  background-color: white;
+  opacity: 25%;
+}
 
 /* 12-column formatting */
 
