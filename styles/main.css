@@ -59,11 +59,13 @@ li {
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
+    height: 100%;
 
 .row {
   width: 100%;
   display: flex;
   flex-wrap: wap;
+  height: inherit;
 }
 
 .col-2 {
