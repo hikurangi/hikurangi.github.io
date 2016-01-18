@@ -42,6 +42,10 @@ li {
   color: white;
 }
 
+.black-box {
+  background:rgba(0,0,0,0.375);
+  padding: 20px;
+}
 
 /* 12-column formatting */
 
@@ -64,11 +68,3 @@ li {
   width: 66.66%;
 }
 
-.black-box {
-  background:rgba(0,0,0,0.375);
-  padding: 20px;
-}
-
-.row-vertical-spacer {
-    height: 30%;
-}
