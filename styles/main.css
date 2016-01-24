@@ -54,6 +54,17 @@ li {
   height: 100px;
 }
 
+#nav {
+  padding:0;
+  margin:0;
+}
+
+#nav li {
+  display:inline;
+  padding:0;
+  margin:0;
+}
+
 /* 12-column formatting */
 
 .grid {
