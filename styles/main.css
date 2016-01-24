@@ -23,14 +23,14 @@ body {
 
 h1 {
   font-weight: 900;
-  color: red;
+  color: white;
   text-align: center;
   vertical-align: bottom;
 }
 
 h2 {
   font-weight: 700;
-  color: orange;
+  color: white;
 }
 
 p {
@@ -44,8 +44,8 @@ li {
   color: white;
 }
 
-.black-box {
-  background:rgba(0,0,0,0.45);
+.background-box {
+  background:rgba(231,0,174,0.45);
   padding: 20px;
   margin: 0px 20px 0px 20px;
 }
