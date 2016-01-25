@@ -101,7 +101,20 @@ li {
   border: 5px solid white;
   padding: 40px;
   margin: 0 auto;
-  width: 40%;
+  width: 40%;    
+  float:left;
+  position: relative;
+}
+
+.heading-border-displaced {
+  height: inherit;
+  width: inherit;
+  border: inherit;
+  float: left;
+  display: inline-block;
+  position: relative;
+  top: -10px;
+  left: 10px;
 }
 
 #nav {
