@@ -85,6 +85,13 @@ p {
 li {
   font-weight: 400;
   color: white;
+  line-height: 180%;
+  letter-spacing: 1.5px;
+}
+
+ul {
+  line-height: 180%;
+  letter-spacing: 1.5px;
 }
 
 .background-box {
