@@ -19,11 +19,11 @@ a:visited {
 }
 
 a:hover {
-  color: rgb(231,0,174);
+  color: black);
 }
 
 a:active {
-  color: black;
+  color: rgb(231,0,174);
 }
 
 html { 
@@ -55,6 +55,10 @@ p {
   font-weight: 400;
   color: white;
   line-height: 160%;
+}
+
+p a:link {
+  color: rgb(231,0,174);
 }
 
 li {
