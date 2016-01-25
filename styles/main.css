@@ -85,9 +85,11 @@ li {
 }
 
 .background-box {
+/* commenting this out for now
   background:rgba(231,0,174,0.45);
   padding: 20px;
   margin: 0px 20px 0px 20px;
+*/
 }
 
 .vertical-spacer {
