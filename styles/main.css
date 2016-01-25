@@ -106,13 +106,13 @@ li {
 }
 
 .heading-border-displaced {
-  height: 100%;
-  width: 100%;
+  height: 105%;
+  width: 102.1%;
   border: 5px solid white;
   float: left;
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 9px;
+  left: 9px;
 }
 
 #nav {
