@@ -8,6 +8,40 @@
   box-sizing: border-box;
 }
 
+html { 
+/* BACKGROUND IMAGE OPTION
+  background: url(http://hikurangi.github.io/img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+*/
+}
+
+body {
+  -webkit-animation: pulse 30s infinite;
+  animation: pulse 30s infinite;
+/*  background-color: #1f0059; */
+}
+
+/*animation css*/
+@-webkit-keyframes pulse {
+  0% {background:#f44336}
+  25% {background:#e91e63}
+  50% {background:#9c2780}
+  75% {background:#673ab7}
+  100% {background:#f44336}
+}
+
+@keyframes pulse {
+  0% {background:#f44336}
+  25% {background:#e91e63}
+  50% {background:#9c2780}
+  75% {background:#673ab7}
+  100% {background:#f44336}
+}
+
+
 /* link styling */
 
 a:link {
@@ -26,18 +60,6 @@ a:active {
   color: rgb(231,0,174);
 }
 
-html { 
-  background: url(http://hikurangi.github.io/img/bg.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-body {
-  font-weight: 400;
-/*  background-color: #1f0059; */
-}
 
 h1 {
   font-weight: 900;
