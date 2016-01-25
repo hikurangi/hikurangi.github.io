@@ -11,15 +11,15 @@
 /* link styling */
 
 a:link {
-  color: white;
+  color: black;
 }
 
 a:visited {
-  color: white;
+  color: black;
 }
 
 a:hover {
-  color: black);
+  color: white);
 }
 
 a:active {
@@ -55,10 +55,6 @@ p {
   font-weight: 400;
   color: white;
   line-height: 160%;
-}
-
-p a:link {
-  color: rgb(231,0,174);
 }
 
 li {
