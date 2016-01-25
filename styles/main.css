@@ -6,6 +6,8 @@
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
+  line-height: 180%;
+  letter-spacing: 1.5px;
 }
 
 html { 
@@ -66,32 +68,21 @@ h1 {
   color: white;
   text-align: center;
   vertical-align: bottom;
-  letter-spacing: 1.5px;
 }
 
 h2 {
   font-weight: 700;
   color: black;
-  letter-spacing: 1.5px;
 }
 
 p {
   font-weight: 400;
   color: white;
-  line-height: 180%;
-  letter-spacing: 1.5px;
 }
 
 li {
   font-weight: 400;
   color: white;
-  line-height: 180%;
-  letter-spacing: 1.5px;
-}
-
-ul {
-  line-height: 180%;
-  letter-spacing: 1.5px;
 }
 
 .background-box {
