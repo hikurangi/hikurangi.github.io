@@ -66,18 +66,20 @@ h1 {
   color: white;
   text-align: center;
   vertical-align: bottom;
+  letter-spacing: 1.5px;
 }
 
 h2 {
   font-weight: 700;
   color: black;
+  letter-spacing: 1.5px;
 }
 
 p {
   font-weight: 400;
   color: white;
-  line-height: 160%;
-  letter-spacing: 2px;
+  line-height: 180%;
+  letter-spacing: 1.5px;
 }
 
 li {
@@ -97,10 +99,10 @@ li {
   height: 100px;
 }
 
-.thick-border {
-  outline-width: 3px;
-  outline-color: white;
+.heading-border {
+  border: 5px solid white;
   padding: 40px;
+  margin: 0 auto;
 }
 
 #nav {
