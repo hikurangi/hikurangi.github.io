@@ -15,4 +15,5 @@
 
 #nav-menu {
   display: block;
+  list-style-type: none;
 }
