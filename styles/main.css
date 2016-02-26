@@ -23,7 +23,7 @@
 
 }
 
-.cover-photo-index {
+#cover-photo-index {
 
     background-image: url("/../img/cover0.jpg");
     background-size: cover;                    
@@ -32,7 +32,7 @@
 
 }
 
-.cover-photo-time {
+#cover-photo-time {
 
     background-image: url("/../img/cover1.jpg");
     background-size: cover;                    
@@ -41,7 +41,7 @@
 
 }
 
-.cover-photo-reflection {
+#cover-photo-reflection {
 
     background-image: url("/../img/cover2.jpg");
     background-size: cover;                    
@@ -50,7 +50,7 @@
 
 }
 
-.cover-photo-about {
+#cover-photo-about {
 
     background-image: url("/../img/cover3.jpg");
     background-size: cover;                    
