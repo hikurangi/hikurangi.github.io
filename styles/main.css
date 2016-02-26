@@ -8,4 +8,5 @@
 
 .cover-photo {
     background-image: url("http://hikurangi.github.io/img/cover.jpg");
+    background-size: 100%;
 }
