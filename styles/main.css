@@ -1,8 +1,47 @@
+/*
+
 #cover-photo {
 
   width:auto;
   max-height:100vh;
   vertical-align: bottom;
   position: fixed;
+
+}
+
+*/
+
+#list-style {
+
+  list-style-type: none;
+  display: block;
+
+}
+
+#cover-photo-index {
+
+    background-image: url("http://hikurangi.github.io/img/cover0.jpg");
+    background-color: #cccccc;
+
+}
+
+#cover-photo-time {
+
+    background-image: url("http://hikurangi.github.io/img/cover1.jpg");
+    background-color: #cccccc;
+
+}
+
+#cover-photo-reflection {
+
+    background-image: url("http://hikurangi.github.io/img/cover2.jpg");
+    background-color: #cccccc;
+
+}
+
+#cover-photo-about {
+
+    background-image: url("http://hikurangi.github.io/img/cover3.jpg");
+    background-color: #cccccc;
 
 }
