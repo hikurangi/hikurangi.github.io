@@ -20,12 +20,12 @@
 #block-button {
 
   display: block;
-  
+
 }
 
 .cover-photo-index {
 
-    background-image: url("http://hikurangi.github.io/img/cover0.jpg");
+    background-image: url("/../img/cover0.jpg");
     background-size: cover;                    
     background-repeat: no-repeat;
     background-position: center center;
@@ -34,7 +34,7 @@
 
 .cover-photo-time {
 
-    background-image: url("http://hikurangi.github.io/img/cover1.jpg");
+    background-image: url("/../img/cover1.jpg");
     background-size: cover;                    
     background-repeat: no-repeat;
     background-position: center center;
@@ -43,7 +43,7 @@
 
 .cover-photo-reflection {
 
-    background-image: url("http://hikurangi.github.io/img/cover2.jpg");
+    background-image: url("/../img/cover2.jpg");
     background-size: cover;                    
     background-repeat: no-repeat;
     background-position: center center;
@@ -52,7 +52,7 @@
 
 .cover-photo-about {
 
-    background-image: url("http://hikurangi.github.io/img/cover3.jpg");
+    background-image: url("/../img/cover3.jpg");
     background-size: cover;                    
     background-repeat: no-repeat;
     background-position: center center;
