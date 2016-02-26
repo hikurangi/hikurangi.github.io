@@ -1,12 +1,20 @@
+
 .nav-menu {
+
   display: inline-block;
+
 }
 
 #whole-page {
+
   display: inline;
+
 }
 
 .cover-photo {
-  max-width:100%;
-  max-height:auto;
+
+  width:auto;
+  max-height:100vh;
+  vertical-align: bottom;
+
 }
