@@ -20,28 +20,24 @@
 
 #cover-photo-index {
 
-    background-image: url("http://hikurangi.github.io/img/cover0.jpg");
-    background-color: #cccccc;
+    background-image: url('http://hikurangi.github.io/img/cover0.jpg');
 
 }
 
 #cover-photo-time {
 
-    background-image: url("http://hikurangi.github.io/img/cover1.jpg");
-    background-color: #cccccc;
+    background-image: url('http://hikurangi.github.io/img/cover1.jpg');
 
 }
 
 #cover-photo-reflection {
 
-    background-image: url("http://hikurangi.github.io/img/cover2.jpg");
-    background-color: #cccccc;
+    background-image: url('http://hikurangi.github.io/img/cover2.jpg');
 
 }
 
 #cover-photo-about {
 
-    background-image: url("http://hikurangi.github.io/img/cover3.jpg");
-    background-color: #cccccc;
+    background-image: url('http://hikurangi.github.io/img/cover3.jpg');
 
 }
