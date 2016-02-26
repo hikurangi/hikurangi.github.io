@@ -16,5 +16,6 @@
   width:auto;
   max-height:100vh;
   vertical-align: bottom;
+  position: fixed;
 
 }
