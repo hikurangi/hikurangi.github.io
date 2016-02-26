@@ -1,3 +1,8 @@
 .nav-menu {
   display: inline-block;
 }
+
+.cover-photo {
+  display: max-width;
+  display: max-height;
+}
