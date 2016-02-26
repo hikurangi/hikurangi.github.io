@@ -12,3 +12,7 @@
   position: fixed;
 
 }
+
+#nav-menu {
+  display: block;
+}
