@@ -26,12 +26,12 @@
 #title-text {
 
   margin-top: 25%;
-  
+
 }
 
 #cover-photo-index {
 
-    background-image: url("/../img/cover0.jpg");
+    background: url("/../img/cover0.jpg");
     background-size: cover;                    
     background-repeat: no-repeat;
     background-position: center center;
@@ -40,7 +40,7 @@
 
 #cover-photo-time {
 
-    background-image: url("/../img/cover1.jpg");
+    background: url("/../img/cover1.jpg");
     background-size: cover;                    
     background-repeat: no-repeat;
     background-position: center center;
@@ -49,7 +49,7 @@
 
 #cover-photo-reflection {
 
-    background-image: url("/../img/cover2.jpg");
+    background: url("/../img/cover2.jpg");
     background-size: cover;                    
     background-repeat: no-repeat;
     background-position: center center;
@@ -58,7 +58,7 @@
 
 #cover-photo-about {
 
-    background-image: url("/../img/cover3.jpg");
+    background: url("/../img/cover3.jpg");
     background-size: cover;                    
     background-repeat: no-repeat;
     background-position: center center;
