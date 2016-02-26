@@ -5,9 +5,7 @@
 #whole-page {
   display: inline;
 }
-}
+
 .cover-photo {
-    max-width: 100%;
-    max-height: 100%;
-    vertical-align: middle;
+    background-image: url("http://hikurangi.github.io/img/cover.jpg")
 }
