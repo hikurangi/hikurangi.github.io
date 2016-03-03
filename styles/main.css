@@ -84,7 +84,7 @@ a svg {
 
 }
 
-a.svg:after {
+a.svg-link:after {
   content: ""; 
   position: absolute; 
   top: 0; 
