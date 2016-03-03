@@ -62,27 +62,20 @@
 
 }
 
-.cover-container-wrapper {
+.cover-wrapper {
 
-  position: absolute;
-
-}
-
-.cover-container {
-
-  width: 100%; /* or whatever is required */
-  text-align: center; /* ensures the image is always in the h-middle */
-  overflow: hidden; /* hide the cropped portion */
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
   position: fixed;
+  clip: rect(0, auto, auto, 0);
 
 }
 
 .cover-image {
 
-  position: relative; /* allows repositioning */
-  left: 100%; /* move the whole width of the image to the right */
-  margin-left: -200%; /* magic! */
   max-height: 100vh;
+  z-index: -1;
 
 }
 
