@@ -64,3 +64,22 @@
     background-position: center center;
 
 }
+
+#social a {
+
+  display: inline;
+
+}
+
+a svg {
+
+  display: inline;
+
+}
+
+.social-icons {
+
+  width: 20%;
+  height: auto;
+
+}
