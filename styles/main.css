@@ -20,6 +20,7 @@
 .block-button {
 
   display: block;
+  font-size: 0.85em;
 
 }
 
@@ -102,6 +103,8 @@
 .dropbtn {
     width: 100%;
     background-color: white;
+    font-size: 0.85em;
+
 }
 
 
