@@ -79,6 +79,8 @@
 
 }
 
+/* JAH VIBRATIONS ME SOCIAL MEDIA ICONS IMPLEMENTATION */
+
 .social-div {
 
   min-width: 100%;
@@ -91,4 +93,28 @@
   display: inline-block;
   width: 20%;
 
+}
+
+
+
+/*DROP MENU STYLING REAL TALK*/
+
+.dropbtn {
+    width: 100%;
+}
+
+
+.dropdown {
+   position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
