@@ -32,10 +32,7 @@
 #cover-photo-index {
 
     background: url("/../img/cover0.jpg");
-    background-size: cover;                    
-    background-repeat: no-repeat;
-    background-position: center center;
-
+    background-size: cover;                  
 }
 
 #cover-photo-time {
@@ -65,15 +62,32 @@
 
 }
 
-.svg-link {
 
-  display: inline-block;
+.cover-container {
+
+  width: 100%; /* or whatever is required */
+  text-align: center; /* ensures the image is always in the h-middle */
+  overflow: hidden; /* hide the cropped portion */
 
 }
 
-.social-icons {
+.cover-image {
 
+  position: relative; /* allows repositioning */
+  left: 100%; /* move the whole width of the image to the right */
+  margin-left: -200%; /* magic! */
+
+}
+
+
+.social-div {
+  min-width: 10%;
+  margin: auto;
+}
+
+.svg-link {
+
+  display: inline-block;
   width: 20%;
-  height: auto;
 
 }
