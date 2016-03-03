@@ -76,13 +76,16 @@
   position: relative; /* allows repositioning */
   left: 100%; /* move the whole width of the image to the right */
   margin-left: -200%; /* magic! */
+  max-height: 100vh;
 
 }
 
 
 .social-div {
-  min-width: 10%;
+
+  min-width: 100%;
   margin: auto;
+
 }
 
 .svg-link {
