@@ -76,7 +76,7 @@
 
 }
 
-/* JAH VIBRATIONS ME SOCIAL MEDIA ICONS IMPLEMENTATION */
+/* JAH VIBRATIONS ME SOCIAL MEDIA ICONS IMPLEMENTATIONS */
 
 .social-div {
 
@@ -87,8 +87,9 @@
 
 .svg-link {
 
-  display: inline;
+  display: inline-block;
   width: 20%;
+  height: auto;
 
 }
 
