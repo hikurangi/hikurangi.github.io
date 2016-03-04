@@ -1,53 +1,89 @@
 <!DOCTYPE HTML>
+
 <html>
+
   <head>
-    <title>Technical Blog Part 2</title>
+
+    <title>Technical Blog 2b - Udacity HTML/CSS Lesson 2 Reflection</title>
+
     <meta charset="UTF-8">
-    <link href="http://hikurangi.github.io/styles/main.css" rel="stylesheet" type="text/css">
-  </head>  
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">    
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+
+    <link rel="stylesheet" href="../styles/main.css">
+
+  </head>
+
   <body>
-    <div class="grid">
+
+    <div class="container">
+
       <div class="row">
-        <div class="vertical-spacer"></div>
-        <div class="heading-border">
-          <h1>Technical Blog Part 2 <em>(Udacity Lesson #2 Reflection)</em></h1>
-          <div class="heading-border-displaced"></div>
-        </div>
-        <div class="nav-bar background-box">
-          <ul id="nav">
+
+        <div class="six columns">
+
+          <h3 class="title" id="title-text">Technical Blog 2b - <em>Udacity HTML/CSS Lesson 2 Reflection</em></h3>
+
+          <ul id="list-style">
+
+            <li><a class="button block-button" href="http://hikurangi.github.io/index.html">Home</a></li>
+
+            <li><a class="button block-button" href="http://hikurangi.github.io/about.html">About</a></li>
+
             <li>
-              <h3><a href="http://hikurangi.github.io/index.html">Home</a></h3>
+
+              <div class="dropdown">
+
+                <button class="dropbtn">Blog</button>
+
+                <div class="dropdown-content">
+
+                  <a class="button dropbtn block-button" href="http://hikurangi.github.io/blog/c1-reflection-blog.html">Cultural Blog 1a - Reflection</a>
+
+                  <a class="button dropbtn block-button" href="http://hikurangi.github.io/blog/c1-time-and-habits-blog.html">Cultural Blog 1b - Time And Habits </a> 
+
+                  <a class="button dropbtn block-button" href="http://hikurangi.github.io/blog/t2-html-css-dom-p1.html">Technical Blog 2a - Udacity HTML/CSS Pt. 1</a>
+
+                  <a class="button dropbtn block-button" href="http://hikurangi.github.io/blog/t2-html-css-dom-p2.html">Technical Blog 2b - Udacity HTML/CSS Pt. 2</a>
+
+                </div>
+
+              </div>
+
             </li>
-            <li>
-              <h3><a href="http://hikurangi.github.io/blog/c1-reflection-blog.html">Cultural Blog Part 1 - Fireside Reflection</a></h3>
-            </li>
-            <li>
-              <h3><a href="http://hikurangi.github.io/blog/c2-emotional-intelligence.html">Cultural Blog Part 2 - Emotional Intelligence</a></h3>
-            </li>
-            <li>
-              <h3><a href="http://hikurangi.github.io/blog/c1-time-and-habits-blog.html">Time And Habits Blog</a></h3>
-            </li>
-            <li>
-              <h3><a href="http://hikurangi.github.io/blog/t2-html-css-dom-p1.html">Technical Blog Part 1 - Udacity Lesson #1 Reflection</a></h3>
-            </li>
-            <li>
-              <h3><a href="http://hikurangi.github.io/blog/t2-html-css-dom-p2.html">Technical Blog Part 2 - Udacity Lesson #2 Reflection</a></h3>
-            </li>
+            
           </ul>
+
+          <div class="body-copy">
+
+            <h4>What is grid based design?</h4>
+            <p>Grid-based design with specific reference to the material we're covering in the course, is a method of creating a website, using HTML and CSS which simplifies and makes-logical the creation of webpage layouts, and easily facilitates responsiveness in web design. It uses a combination of row and column elements, styled with specific sizes or ratios to create grid layouts, from where it no doubt derives its name.</p>
+            <h4> What's all the hype about responsive webpages?</h4>
+            <p>Responsive webpages can in theory be viewed on a wider variety of devices and screen sizes/orientations, adapting as that variety grows. They're the future of the web!</p>
+            <h4>What is semantic structure?</h4>
+            <p>Semantic structure in HTML refers to the embedded meaning or purpose of elements, as understood by a machine. A computer can immediately understand that h1 headings are more imporant that h6 headings. In contrast, a human can infer the significance of a piece of text simply by its position on the screen, or its size, or weight. We can immediately interpret a large-styled 'p' as having the same significance as an equally large 'h1' when we're viewing a page through our browser, where our computers may not.</p>  
+
+          </div>
+
         </div>
-      </div>
-      <div class="row">
-        <div class="col-2"></div>
-        <div class="col-8 background-box">
-          <h2>What is grid based design?</h2>
-          <p>Grid-based design with specific reference to the material we're covering in the course, is a method of creating a website, using HTML and CSS which simplifies and makes-logical the creation of webpage layouts, and easily facilitates responsiveness in web design. It uses a combination of row and column elements, styled with specific sizes or ratios to create grid layouts, from where it no doubt derives its name. </p>
-          <h2> What's all the hype about responsive webpages?</h2>
-          <p>Responsive webpages can in theory be viewed on a wider variety of devices and screen sizes/orientations. They're the future of the web!</p>
-          <h2>What is semantic structure?</h2>
-          <p>Semantic structure in HTML refers to the hierarchy of elements - headings, for example - as opposed to large text. The h1, h2, h3, carry meaning and denote the importance of each category, so regardless of how they're styled and sized, their underlying meaning in the hierarchy of a webpage remains. The tags h, p, ul, and so on carry meaning which is immediately understood by machines, where humans are sophisticated enough to understand the implied meaning and significance of text displayed on the page from its content, as well as its styling, size and layout. Machines are not quite sophisticated enough to consistently understand the implied meaning and purpose of page items through their size, styling, layout and sometimes even content alone.</p>          
+
+        <div class="six columns cover-container">
+
+          <div class="cover-wrapper">
+
+            <img class="cover-image" src="../img/cover4.jpg">
+
+          </div>
+
         </div>
-        <div class="col-2"></div>
+
       </div>
+
     </div>
+
   </body>
+
 </html>
+
