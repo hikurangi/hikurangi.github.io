@@ -68,6 +68,10 @@
 
 }
 
+.inline-image {
+  display: inline;
+}
+
 .cover-image {
 
   max-height: 100vh;
