@@ -101,13 +101,6 @@
 
 }
 
-.block-button {
-
-  display: block;
-  font-size: 0.85em;
-
-}
-
 /* Drop Menu Styling */
 
 .dropbtn {
@@ -159,6 +152,7 @@ Button Styling */
 
 .dropdown-content .dropbtn:hover {
   z-index: 1000;
+  position: relative;
 }
 
 .dropbtn:last-child {
