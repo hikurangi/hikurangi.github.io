@@ -59,16 +59,12 @@ article:last-child {
 }
 */
 
-.cover-container {
-  height: 100vh;
-}
-
 .cover-photo {
-
-    background-size: cover;
     height: 100vh;
-    width: 48vh;
-    position: fixed;                  
+    width: 52vh;
+    background-size: cover;
+    position: fixed;
+    background-position: center center;
 }
 
 .cover0 {
