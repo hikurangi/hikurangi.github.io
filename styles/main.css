@@ -60,14 +60,16 @@
 
 */
 
-.cover-wrapper {
+/* LEFT COLUMN STYLING *//
 
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  clip: rect(0, auto, auto, 0);
-  z-index: -1;
 
+.title {
+  margin-top: 15%;
+}
+
+
+article:last-child {
+  margin-bottom: 15%;
 }
 
 .inline-image {
@@ -76,11 +78,22 @@
   margin-bottom: 1ems;
 }
 
+/*RIGHT COLUMN STYLING*/
+
+.cover-wrapper {
+
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  clip: rect(0, auto, auto, 0);
+  position: fixed;
+
+}
+
+
 .cover-image {
 
   max-height: 100vh;
-  position: fixed;
-  z-index: -1;
 
 }
 
