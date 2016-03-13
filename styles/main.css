@@ -121,6 +121,10 @@
 
 }
 
+.dropdown button:hover {
+  z-index: 1;
+}
+
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -129,13 +133,11 @@
 Button Styling */
 
 .block-button {
-
   display: block;
   font-size: 0.85em;
-
 }
 
-.dropdown .dropbtn:hover {
+.dropdown .dropbtn:not(last-child):hover {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -151,7 +153,7 @@ Button Styling */
 }
 
 .dropdown-content .dropbtn:hover {
-  z-index: 1000;
+  z-index: 1;
   position: relative;
 }
 
@@ -160,7 +162,9 @@ Button Styling */
   border-bottom-left-radius: 4px;
 }
 
-.dropbtn:last-child:hover {
+/*
+  .dropbtn:last-child:hover {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
+*/
