@@ -150,7 +150,7 @@ Button Styling */
   font-size: 0.85em;
 }
 
-.dropdown .dropbtn:not(last-child):hover {
+.dropdown .dropbtn:not(last-child) a:hover {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
