@@ -107,38 +107,6 @@ article:last-child {
     background-position: center right;
 }
 
-
-/*
-
-#cover-photo-time {
-
-    background: url("/../img/cover1.jpg");
-    background-size: cover;                    
-    background-repeat: no-repeat;
-    background-position: center center;
-
-}
-
-#cover-photo-reflection {
-
-    background: url("/../img/cover2.jpg");
-    background-size: cover;                    
-    background-repeat: no-repeat;
-    background-position: center center;
-
-}
-
-#cover-photo-about {
-
-    background: url("/../img/cover3.jpg");
-    background-size: cover;                    
-    background-repeat: no-repeat;
-    background-position: center center;
-
-}
-
-*/
-
 /* Social Media Icons */
 
 .social-div {
@@ -151,7 +119,7 @@ article:last-child {
 .svg-link {
 
   display: inline-block;
-  width: 20%;
+  width: 15%;
   height: auto;
 
 }
@@ -207,7 +175,7 @@ Button Styling */
   margin-top: -1px;
 }
 
-.dropdown-content .dropbtn:hover {
+.dropdown-content.dropbtn:hover {
   z-index: 1;
   position: relative;
 }
