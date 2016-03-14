@@ -144,21 +144,10 @@ article:last-child {
 
 }
 
-.dropdown button:hover {
-  z-index: 1;
-}
-
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* General 
-Button Styling */
-
-.block-button {
-  display: block;
-  font-size: 0.85em;
-}
 
 .dropdown .dropbtn:not(last-child) a:hover {
   border-bottom-right-radius: 0;
@@ -175,8 +164,8 @@ Button Styling */
   margin-top: -1px;
 }
 
-.dropdown-content.dropbtn:hover {
-  z-index: 1;
+.button.dropbtn:hover {
+  z-index: 1; /* make any hovered buttons sit in front so the -1 margin overlap doesn't cover their border */
   position: relative;
 }
 
@@ -185,9 +174,10 @@ Button Styling */
   border-bottom-left-radius: 4px;
 }
 
-/*
-  .dropbtn:last-child:hover {
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+/* General 
+Button Styling */
+
+.block-button {
+  display: block;
+  font-size: 0.85em;
 }
-*/
