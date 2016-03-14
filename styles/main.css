@@ -68,19 +68,19 @@ article:last-child {
 }
 
 .cover0 {
-    background-image: url("../img/cover0.jpg");
+    background-image: url("../img/cover0.jpg"); /* index */
 }
 
 .cover1 {
-    background-image: url("../img/cover1.jpg");
+    background-image: url("../img/cover1.jpg"); /*c1a time and habits*/
 }
 
 .cover2 {
-    background-image: url("../img/cover2.jpg");
+    background-image: url("../img/cover2.jpg"); /*c1b time and habits*/
 }
 
 .cover3 {
-    background-image: url("../img/cover3.jpg");
+    background-image: url("../img/cover3.jpg"); 
 }
 
 .cover4 {
@@ -92,7 +92,7 @@ article:last-child {
 }
 
 .cover6 {
-    background-image: url("../img/cover6.jpg");
+    background-image: url("../img/cover6.jpg"); /* c2 emotional intelligence */
 }
 
 .cover7 {
@@ -100,9 +100,12 @@ article:last-child {
 }
 
 .cover8 {
-    background-image: url("../img/cover8.jpg");
+    background-image: url("../img/cover8.jpg"); /* c3 meditation process */
 }
 
+.cover-photo.cover3 {
+    background-position: center right;
+}
 
 
 /*
