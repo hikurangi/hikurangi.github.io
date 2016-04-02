@@ -103,6 +103,14 @@ article:last-child {
     background-image: url("../img/cover8.jpg"); /* c3 meditation process */
 }
 
+.cover9 {
+    background-image: url("../img/cover9.jpg"); /* t4 javascript basics */
+}
+
+.cover10 {
+    background-image: url("../img/cover10.jpg"); /* t4 javascript basics */
+}
+
 .cover-photo.cover3 {
     background-position: center right;
 }
