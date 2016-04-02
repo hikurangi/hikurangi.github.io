@@ -40,6 +40,10 @@ article:last-child {
 
 }
 
+code {
+  white-space: normal;
+}
+
 /*RIGHT COLUMN STYLING*/
 
 /*
@@ -108,7 +112,7 @@ article:last-child {
 }
 
 .cover10 {
-    background-image: url("../img/cover10.jpg"); /* t4 javascript basics */
+    background-image: url("../img/cover10.jpg"); /* c4 cultural blog */
 }
 
 .cover-photo.cover3 {
