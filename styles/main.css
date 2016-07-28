@@ -111,8 +111,16 @@ code {
     background-image: url("../img/cover9.jpg"); /* t4 javascript basics */
 }
 
+.cover10 {
+    background-image: url("../img/cover10.jpg"); /* t5 problem solving */
+}
+
 .cover11 {
     background-image: url("../img/cover11.jpg"); /* t5 problem solving */
+}
+
+.cover12 {
+    background-image: url("../img/cover12.jpg"); /* t5 problem solving */
 }
 
 .cover-photo.cover3 {
