@@ -84,7 +84,7 @@ code {
 }
 
 .cover3 {
-    background-image: url("../img/cover3.jpg"); 
+    background-image: url("../img/cover3.jpg");
 }
 
 .cover4 {
@@ -111,8 +111,8 @@ code {
     background-image: url("../img/cover9.jpg"); /* t4 javascript basics */
 }
 
-.cover10 {
-    background-image: url("../img/cover10.jpg"); /* c4 cultural blog */
+.cover11 {
+    background-image: url("../img/cover11.jpg"); /* t5 problem solving */
 }
 
 .cover-photo.cover3 {
@@ -124,7 +124,7 @@ code {
 .social-div {
 
   width: 90%;
-  margin: 0 auto; 
+  margin: 0 auto;
 
 }
 
@@ -186,7 +186,7 @@ code {
   border-bottom-left-radius: 4px;
 }
 
-/* General 
+/* General
 Button Styling */
 
 .block-button {
