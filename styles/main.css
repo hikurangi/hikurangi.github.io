@@ -123,6 +123,10 @@ code {
     background-image: url("../img/cover12.jpg"); /* c5 self confidence */
 }
 
+.cover13 {
+    background-image: url("../img/cover13.jpg"); /* t6 javascript language */
+}
+
 .cover-photo.cover3 {
     background-position: center right;
 }
