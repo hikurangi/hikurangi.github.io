@@ -131,6 +131,10 @@ code {
     background-image: url("../img/cover14.jpg"); /* t6 javascript language */
 }
 
+.cover15 {
+    background-image: url("../img/cover15.jpg"); /* c7 motivation */
+}
+
 .cover-photo.cover3 {
     background-position: center right;
 }
