@@ -11,6 +11,37 @@
 
 */
 
+/* For devices smaller than 400px - am I doing this right!?!?! REMEMBER TO FIX THESE BEFORE UPDATING */
+/* WERK IN BRUGRESS Maybe media query is unnecessary */
+/*
+@media (max-width: 399px) {
+  #vanish {
+    display: none;
+    white-space: normal;
+  }
+  a > span:not(#vanish) {
+    display: block;
+  }
+  #line1 {
+    margin-top: -0.5em;
+  }
+  #line2 {
+  margin-bottom: 1em;
+  }
+}
+*/
+
+/* skeleton breakpoint 1! For devices larger than 400px */
+/*
+@media (min-width: 400px) {
+
+}
+*/
+/* skeleton breakpoint 2! For devices larger than 550px */
+/*
+@media (min-width: 550px) {
+}
+*/
 
 
 
@@ -132,7 +163,7 @@ code {
 }
 
 .cover15 {
-    background-image: url("../img/cover15.jpg"); /* c7 motivation */
+    background-image: url("../img/cover15.jpg"); /* c javascript language */
 }
 
 .cover-photo.cover3 {
