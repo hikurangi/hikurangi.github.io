@@ -159,11 +159,15 @@ code {
 }
 
 .cover14 {
-    background-image: url("../img/cover14.jpg"); /* t6 javascript language */
+    background-image: url("../img/cover14.jpg"); /* ??? */
 }
 
 .cover15 {
-    background-image: url("../img/cover15.jpg"); /* c javascript language */
+    background-image: url("../img/cover15.jpg"); /* c-7 ??? */
+}
+
+.cover16 {
+    background-image: url("../img/cover16.jpg"); /* c-8 connecting */
 }
 
 .cover-photo.cover3 {
