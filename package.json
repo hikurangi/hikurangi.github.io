@@ -1,0 +1,26 @@
+{
+  "name": "hikurangi",
+  "version": "1.0.0",
+  "description": "my website and portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikurangi/hikurangi.github.io.git"
+  },
+  "keywords": [
+    "hikurangi",
+    "portfolio",
+    "profile",
+    "wellington",
+    "jazz"
+  ],
+  "author": "hikurangi",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/hikurangi/hikurangi.github.io/issues"
+  },
+  "homepage": "https://github.com/hikurangi/hikurangi.github.io#readme"
+}
