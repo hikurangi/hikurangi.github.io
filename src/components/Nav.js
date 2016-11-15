@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import '../../styles/main.css' // temporary css import
+
 class Nav extends Component {
   render () {
     return (
