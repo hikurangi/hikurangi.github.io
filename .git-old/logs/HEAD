@@ -1,6 +1,0 @@
-0000000000000000000000000000000000000000 d970a1eb06904d545aa0cdb2917fabf52f5ac455 Dev <dev@eda-vm.(none)> 1468474394 +1200	clone: from https://github.com/hikurangi/hikurangi.github.io.git
-d970a1eb06904d545aa0cdb2917fabf52f5ac455 118e8cf9090f07ed388afd420974e96953c5fc2d Dev <hikurangi@gmail.com> 1468902340 +1200	commit: minor editing for context
-118e8cf9090f07ed388afd420974e96953c5fc2d 13b5bdd897fa569e8c5e2ff3a0f458da1ce6a518 Dev <hikurangi@gmail.com> 1469084042 +1200	commit: minor text edits
-13b5bdd897fa569e8c5e2ff3a0f458da1ce6a518 8586d1cedb9c6926bf14c9559e4e6907f019bd6d Dev <hikurangi@gmail.com> 1469602701 +1200	commit: updated nav menu on all blog pages, created t5 blog
-8586d1cedb9c6926bf14c9559e4e6907f019bd6d d09bd69d36694c7a41ce52cba343041fc939c22d Dev <hikurangi@gmail.com> 1469602727 +1200	commit: updated nav menu on about and index pages
-d09bd69d36694c7a41ce52cba343041fc939c22d fdd698bf6bb9bb669fdfa7006db348267dbaead4 Dev <hikurangi@gmail.com> 1469602779 +1200	commit: also added new cover image and associated style in main.css
