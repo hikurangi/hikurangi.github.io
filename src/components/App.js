@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 
 // children
-// import Nav from './Nav'
+import Nav from './Nav'
+import Title from './Title'
 
 // styling, assets
 import logo from '../assets/logo.svg'
@@ -15,7 +16,8 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Hikurangi's Blog</h2>
         </div>
-        {/* <Nav /> */}
+        <Nav />
+        <Title />
       </div>
     );
   }
