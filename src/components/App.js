@@ -11,13 +11,16 @@ import CoverPhoto from './CoverPhoto'
 // import logo from '../assets/logo.svg'
 // import '../App.css'
 
-const App = () => {
+const App = (props) => {
   return (
     <div className="container">
       <div className="row">
         <div className="six columns">
           <Title /> {/*give Title a prop which changes depending on which route we're in*/}
           <Nav />
+
+          { props.children }
+
         </div>
         <div className="six columns">
           <CoverPhoto />
