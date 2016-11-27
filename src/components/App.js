@@ -5,19 +5,18 @@ import Nav from './Nav'
 import Title from './Title'
 
 // styling, assets
-import logo from '../assets/logo.svg'
-import '../App.css'
+// import logo from '../assets/logo.svg'
+// import '../App.css'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Hikurangi's Blog</h2>
+      <div class="container">
+        <div class="row">
+          <div class="six columns">
+            <Title /> {/*give Title a prop which changes depending on which route we're in*/}
+          </div>
         </div>
-        <Nav />
-        <Title />
       </div>
     );
   }
