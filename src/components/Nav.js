@@ -13,7 +13,7 @@ const Nav = () => {
           <div className="dropdown">
             <button className="button dropbtn">Blog</button>
             <div className="dropdown-content">
-              <a className="button dropbtn block-button" href="http://hikurangi.github.io/blog/c1-reflection-blog.html">Cultural Blog 1a - Reflection</a>
+              <Link to="/blog" className="button dropbtn block-button">Cultural Blog 1a - Reflection</Link>
               <a className="button dropbtn block-button" href="http://hikurangi.github.io/blog/c1-time-and-habits-blog.html">Cultural Blog 1b - Time And Habits</a>
               <a className="button dropbtn block-button" href="http://hikurangi.github.io/blog/t2-html-css-dom-p1.html">Technical Blog 2a - Udacity HTML/CSS Pt. 1</a>
               <a className="button dropbtn block-button" href="http://hikurangi.github.io/blog/t2-html-css-dom-p2.html">Technical Blog 2b - Udacity HTML/CSS Pt. 2</a>
