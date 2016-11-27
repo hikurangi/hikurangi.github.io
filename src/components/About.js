@@ -3,26 +3,26 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-      <article class="body-copy">
+      <article className="body-copy">
         <p>
           Learning, teaching, coding, composing and performing around Aotearoa and the world.
         </p>
       </article>
-      <div class="social-div">
-        <a href="https://github.com/hikurangi" class="svg-link">
-          <img class="social-icons" src="img/github.svg">
+      <div className="social-div">
+        <a href="https://github.com/hikurangi" className="svg-link">
+          <img className="social-icons" src="img/github.svg">
         </a>
-        <a href="https://www.instagram.com/ignarukih" class="svg-link">
-          <img class="social-icons" src="img/instagram.svg">
+        <a href="https://www.instagram.com/ignarukih" className="svg-link">
+          <img className="social-icons" src="img/instagram.svg">
         </a>
-        <a href="https://twitter.com/ignarukih" class="svg-link">
-          <img class="social-icons" src="img/twitter.svg">
+        <a href="https://twitter.com/ignarukih" className="svg-link">
+          <img className="social-icons" src="img/twitter.svg">
         </a>
-        <a href="https://www.youtube.com/channel/UC6RNtVlmmJa_vrexY5DgPqw" class="svg-link">
-          <img class="social-icons" src="img/youtube.svg">
+        <a href="https://www.youtube.com/channel/UC6RNtVlmmJa_vrexY5DgPqw" className="svg-link">
+          <img className="social-icons" src="img/youtube.svg">
         </a>
-        <a href="mailto:" class="svg-link">
-          <img class="social-icons" src="img/mail.svg">
+        <a href="mailto:" className="svg-link">
+          <img className="social-icons" src="img/mail.svg">
         </a>
       </div>
     </div>

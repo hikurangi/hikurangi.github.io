@@ -1,4 +1,6 @@
 import React from 'react'
+// import { BrowserRouter } from 'react-router'
+//  Match, Miss, Link ^^
 
 // children
 import Nav from './Nav'
@@ -11,13 +13,13 @@ import CoverPhoto from './CoverPhoto'
 
 const App = () => {
   return (
-    <div class="container">
-      <div class="row">
-        <div class="six columns">
+    <div className="container">
+      <div className="row">
+        <div className="six columns">
           <Title /> {/*give Title a prop which changes depending on which route we're in*/}
           <Nav />
         </div>
-        <div class="six columns">
+        <div className="six columns">
           <CoverPhoto />
         </div>
       </div>
