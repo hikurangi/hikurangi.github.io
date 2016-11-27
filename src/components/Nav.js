@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router'
 
 import '../../styles/main.css' // temporary css import
 
@@ -6,8 +7,8 @@ const Nav = () => {
   return (
     <nav>
       <ul id="list-style">
-        <li><a className="button block-button" href="http://hikurangi.github.io/index.html">Home</a></li>
-        <li><a className="button block-button" href="http://hikurangi.github.io/about.html">About</a></li>
+        <li><Link to="/" className="button block-button">Home</Link></li>
+        <li><Link to="/about" className="button block-button">About</Link></li>
         <li>
           <div className="dropdown">
             <button className="button dropbtn">Blog</button>
