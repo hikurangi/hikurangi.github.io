@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 // children
 import Nav from './Nav'
@@ -9,22 +9,20 @@ import CoverPhoto from './CoverPhoto'
 // import logo from '../assets/logo.svg'
 // import '../App.css'
 
-class App extends Component {
-  render() {
-    return (
-      <div class="container">
-        <div class="row">
-          <div class="six columns">
-            <Title /> {/*give Title a prop which changes depending on which route we're in*/}
-            <Nav />
-          </div>
-          <div class="six columns">
-            <CoverPhoto />
-          </div>
+const App = () => {
+  return (
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+          <Title /> {/*give Title a prop which changes depending on which route we're in*/}
+          <Nav />
+        </div>
+        <div class="six columns">
+          <CoverPhoto />
         </div>
       </div>
-    );
-  }
+    </div>
+  )
 }
 
 export default App;

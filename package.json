@@ -16,7 +16,8 @@
   "dependencies": {
     "react": "^15.3.2",
     "react-dom": "^15.3.2",
-    "react-tap-event-plugin": "^1.0.0"
+    "react-tap-event-plugin": "^1.0.0",
+    "react-router": "*"
   },
   "repository": {
     "type": "git",
