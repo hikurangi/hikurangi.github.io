@@ -2,7 +2,7 @@ import React from 'react'
 
 const Blog = () => {
   return (
-    <article class="body-copy">
+    <article className="body-copy">
 
       <h4>What's your take on the DBC / EDA experience?</h4>
       <p>
