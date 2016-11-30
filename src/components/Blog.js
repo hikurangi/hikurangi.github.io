@@ -3,7 +3,6 @@ import React from 'react'
 const Blog = () => {
   return (
     <article className="body-copy">
-
       <h4>What's your take on the DBC / EDA experience?</h4>
       <p>
         It has an interesting culture which I haven't been exposed to before, with its own jargon, and a very particular ethic. Holistic, very direct and nonsense-free. I also found Shereef's restaurant patron/chef dichotomy useful. I hope I can be a chef. Shereef's talk made me realise that I may have been more on the patron side (expecting to be 'served' the learning) rather than the chef side (getting one's hands dirty). The notion of being a 'world-class beginner' at the end of the bootcamp was both inspiring and intimidating, in that it's a journey, but along a very challenging road. I love the idea of a non-competitive, yet rigorous environment. Competitiveness is absolutely counter to the way I work.
@@ -25,7 +24,6 @@ const Blog = () => {
       <p>
         I'm definitely excited to see what's in store. The learning environment doesn't make me nervous - the intensity and structured nature of this sort of learning (vs peer-less self-teaching via MOOCs or freecodecamp etc) is the appeal. My challenge/fear is to do with having the necessary focus and discipline to get the most out of this course, considering how 'easy' and instantly rewarding the work I've been doing in my professional life up to this point has been.
       </p>
-
     </article>
   )
 }
