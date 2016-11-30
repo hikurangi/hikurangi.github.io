@@ -8,13 +8,15 @@ import Blog from './components/Blog'
 
 import './index.css';
 
-ReactDOM.render((
+const routes = (
   <Router history={hashHistory}>
     <Route path="/" component={App}>
       <Route path="/about" component={About} />
       <Route path="/blog" component={Blog} />
     </Route>
   </Router>
-),
+)
+
+ReactDOM.render(routes,
   document.getElementById('root')
 );
