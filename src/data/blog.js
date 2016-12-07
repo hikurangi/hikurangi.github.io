@@ -23,6 +23,61 @@ const blog = [{
     I'm definitely excited to see what's in store. The learning environment doesn't make me nervous - the intensity and structured nature of this sort of learning (vs peer-less self-teaching via MOOCs or freecodecamp etc) is the appeal. My challenge/fear is to do with having the necessary focus and discipline to get the most out of this course, considering how 'easy' and instantly rewarding the work I've been doing in my professional life up to this point has been.
   </p>",
   "timestamp": ""
-}]
+},
+{
+  "title": "Cultural Blog 1b - Time And Habits",
+  "slug": "/c1-time-and-habits-blog.html",
+  "html": "",
+  "timestamp": ""
+},
+{
+  "title": "Technical Blog 2a - Udacity HTML/CSS Pt. 1",
+  "slug": "t2-html-css-dom-p2.html",
+  "html": "",
+  "timestamp": ""
+},
+{
+  "title": "Technical Blog 2b - Udacity HTML/CSS Pt. 2",
+  "slug": "/t2-html-css-dom-p2.html",
+  "html": "",
+  "timestamp": ""
+},
+{
+  "title": "Cultural Blog 1b - Time And Habits",
+  "slug": "/c1-time-and-habits-blog.html",
+  "html": "",
+  "timestamp": ""
+},
+{
+  "title": "Cultural Blog 1b - Time And Habits",
+  "slug": "/c1-time-and-habits-blog.html",
+  "html": "",
+  "timestamp": ""
+},
+{
+  "title": "Cultural Blog 1b - Time And Habits",
+  "slug": "/c1-time-and-habits-blog.html",
+  "html": "",
+  "timestamp": ""
+},
+{
+  "title": "Cultural Blog 1b - Time And Habits",
+  "slug": "/c1-time-and-habits-blog.html",
+  "html": "",
+  "timestamp": ""
+},
+{
+  "title": "Cultural Blog 1b - Time And Habits",
+  "slug": "/c1-time-and-habits-blog.html",
+  "html": "",
+  "timestamp": ""
+},
+{
+  "title": "Cultural Blog 1b - Time And Habits",
+  "slug": "/c1-time-and-habits-blog.html",
+  "html": "",
+  "timestamp": ""
+},
+]
 
 export blog
