@@ -9,23 +9,33 @@ import CoverPhoto from './CoverPhoto'
 // import logo from '../assets/logo.svg'
 // import '../App.css'
 
-const App = (props) => {
-  return (
-    <div className="container">
-      <div className="row">
-        <div className="six columns">
-          <Title /> {/*give Title a prop which changes depending on which route we're in*/}
-          <Nav />
+class App extends React.Component {
 
-          { props.children }
+  constructor (props) {
+    super (props)
+    this.state = {
+      title: "Hikurangi's EDA Blog"
+    }
+  }
 
-        </div>
-        <div className="six columns">
-          <CoverPhoto />
+  render () {
+    return (
+      <div className="container">
+        <div className="row">
+          <div className="six columns">
+            <Title title={this.state.title} />
+            <Nav />
+
+            { this.props.children }
+
+          </div>
+          <div className="six columns">
+            <CoverPhoto />
+          </div>
         </div>
       </div>
-    </div>
-  )
+    )
+  }
 }
 
 export default App;
