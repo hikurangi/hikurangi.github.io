@@ -5,6 +5,8 @@ import Nav from './Nav'
 import Title from './Title'
 import CoverPhoto from './CoverPhoto'
 
+import blog from '../data/blog'
+
 // styling, assets
 // import logo from '../assets/logo.svg'
 // import '../App.css'
@@ -24,7 +26,7 @@ class App extends React.Component {
         <div className="row">
           <div className="six columns">
             <Title title={this.state.title} />
-            <Nav />
+            <Nav nav={blog}/>
 
             { this.props.children }
 

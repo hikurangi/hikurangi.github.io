@@ -1,6 +1,6 @@
 const blog = [{
   "title": "Cultural Blog 1a - Reflection",
-  "slug": "c1-reflection-blog.html",
+  "slug": "c1-reflection-blog",
   "html": "<h4>What's your take on the DBC / EDA experience?</h4>
   <p>
     It has an interesting culture which I haven't been exposed to before, with its own jargon, and a very particular ethic. Holistic, very direct and nonsense-free. I also found Shereef's restaurant patron/chef dichotomy useful. I hope I can be a chef. Shereef's talk made me realise that I may have been more on the patron side (expecting to be 'served' the learning) rather than the chef side (getting one's hands dirty). The notion of being a 'world-class beginner' at the end of the bootcamp was both inspiring and intimidating, in that it's a journey, but along a very challenging road. I love the idea of a non-competitive, yet rigorous environment. Competitiveness is absolutely counter to the way I work.
@@ -26,55 +26,55 @@ const blog = [{
 },
 {
   "title": "Cultural Blog 1b - Time And Habits",
-  "slug": "/c1-time-and-habits-blog.html",
+  "slug": "/c1-time-and-habits-blog",
   "html": "",
   "timestamp": ""
 },
 {
   "title": "Technical Blog 2a - Udacity HTML/CSS Pt. 1",
-  "slug": "t2-html-css-dom-p2.html",
+  "slug": "t2-html-css-dom-p2",
   "html": "",
   "timestamp": ""
 },
 {
   "title": "Technical Blog 2b - Udacity HTML/CSS Pt. 2",
-  "slug": "/t2-html-css-dom-p2.html",
+  "slug": "/t2-html-css-dom-p2",
   "html": "",
   "timestamp": ""
 },
 {
   "title": "Cultural Blog 1b - Time And Habits",
-  "slug": "/c1-time-and-habits-blog.html",
+  "slug": "/c1-time-and-habits-blog",
   "html": "",
   "timestamp": ""
 },
 {
   "title": "Cultural Blog 1b - Time And Habits",
-  "slug": "/c1-time-and-habits-blog.html",
+  "slug": "/c1-time-and-habits-blog",
   "html": "",
   "timestamp": ""
 },
 {
   "title": "Cultural Blog 1b - Time And Habits",
-  "slug": "/c1-time-and-habits-blog.html",
+  "slug": "/c1-time-and-habits-blog",
   "html": "",
   "timestamp": ""
 },
 {
   "title": "Cultural Blog 1b - Time And Habits",
-  "slug": "/c1-time-and-habits-blog.html",
+  "slug": "/c1-time-and-habits-blog",
   "html": "",
   "timestamp": ""
 },
 {
   "title": "Cultural Blog 1b - Time And Habits",
-  "slug": "/c1-time-and-habits-blog.html",
+  "slug": "/c1-time-and-habits-blog",
   "html": "",
   "timestamp": ""
 },
 {
   "title": "Cultural Blog 1b - Time And Habits",
-  "slug": "/c1-time-and-habits-blog.html",
+  "slug": "/c1-time-and-habits-blog",
   "html": "",
   "timestamp": ""
 },
