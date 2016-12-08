@@ -6,7 +6,7 @@ import '../../styles/main.css' // temporary css import
 // temporary data seed
 import '../data/blog.js'
 
-const Nav = (blog) => {
+const Nav = (props) => {
   return (
     <nav>
       <ul id="list-style">
@@ -16,8 +16,7 @@ const Nav = (blog) => {
           <div className="dropdown">
             <button className="button dropbtn">Blog</button>
             <div className="dropdown-content">
-              <Link to="/blog" className="button dropbtn block-button">Cultural Blog 1a - Reflection</Link>
-              <a className="button dropbtn block-button" href="http://hikurangi.github.io/blog/c1-time-and-habits-blog.html">Cultural Blog 1b - Time And Habits</a>
+              { props.nav }
             </div>
           </div>
         </li>
