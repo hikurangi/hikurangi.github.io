@@ -6,7 +6,7 @@ import '../../styles/main.css' // temporary css import
 // temporary data seed
 import '../data/blog.js'
 
-const Nav = (props) => {
+const Nav = (blog) => {
   return (
     <nav>
       <ul id="list-style">
