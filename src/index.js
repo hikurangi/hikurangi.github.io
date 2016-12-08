@@ -12,7 +12,7 @@ const routes = (
   <Router history={hashHistory}>
     <Route path="/" component={App}>
       <Route path="/about" component={About} />
-      <Route path="/blog" component={Blog} />
+      <Route path="/blog/:blogTitle" component={Blog} />
     </Route>
   </Router>
 )

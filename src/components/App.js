@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router'
 
 // children
 import Nav from './Nav'
@@ -12,10 +11,6 @@ import blog from '../data/blog'
 // styling, assets
 // import logo from '../assets/logo.svg'
 // import '../App.css'
-
-const nav = blog.map((item, index) => {
-  return <Link to={item.slug} key={index} className="button dropbtn block-button">{item.title}</Link>
-})
 
 class App extends React.Component {
 
@@ -31,12 +26,13 @@ class App extends React.Component {
   }
 
   render () {
+    console.log('setTitle in APP', this.setTitle);
     return (
       <div className="container">
         <div className="row">
           <div className="six columns">
             <Title title={this.state.title} />
-            <Nav nav={nav}/>
+            <Nav blog={blog} />
 
             { this.props.children }
 

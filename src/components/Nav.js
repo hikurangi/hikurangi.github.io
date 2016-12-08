@@ -7,6 +7,7 @@ import '../../styles/main.css' // temporary css import
 import '../data/blog.js'
 
 const Nav = (props) => {
+  console.log({props});
   return (
     <nav>
       <ul id="list-style">
@@ -16,7 +17,13 @@ const Nav = (props) => {
           <div className="dropdown">
             <button className="button dropbtn">Blog</button>
             <div className="dropdown-content">
-              { props.nav }
+              {
+                props.blog.map((item, index) => {
+                  return (
+                    <Link to={item.slug} key={index} className="button dropbtn block-button" >{item.title}</Link>
+                  )
+                })
+              }
             </div>
           </div>
         </li>
