@@ -6,7 +6,7 @@ import React from 'react'
 const Blog = (props) => {
   return (
     <article className="body-copy">
-      {props.blog}
+      { props.html }
     </article>
   )
 }
