@@ -20,7 +20,7 @@ const Nav = (props) => {
               {
                 props.blog.map((item, index) => {
                   return (
-                    <Link to={item.slug} key={index} className="button dropbtn block-button" >{item.title}</Link>
+                    <Link key={index} to={"/blog/" + item.slug} className="button dropbtn block-button" >{item.title}</Link>
                   )
                 })
               }
