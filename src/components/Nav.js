@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router'
 
-import '../../styles/main.css' // temporary css import
+import '../../public/styles/main.css' // temporary css import
 
 // temporary data seed
 import '../data/blog.js'
