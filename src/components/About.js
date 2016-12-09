@@ -1,6 +1,7 @@
 import React from 'react'
 
 const About = () => {
+  console.log('hellooo!');
   return (
     <div>
       <article className="body-copy">
