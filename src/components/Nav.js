@@ -7,7 +7,6 @@ import '../../public/styles/main.css' // temporary css import
 import '../data/blog.js'
 
 const Nav = (props) => {
-  console.log({props});
   return (
     <nav>
       <ul id="list-style">

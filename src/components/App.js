@@ -4,13 +4,14 @@ import React from 'react'
 import Nav from './Nav'
 import Title from './Title'
 import CoverPhoto from './CoverPhoto'
-
-// replace with API call to blog backend
-import blog from '../data/blog'
+import Blog from './Blog'
 
 // styling, assets
 // import logo from '../assets/logo.svg'
 // import '../App.css'
+
+// replace with API call to blog backend
+import blog from '../data/blog'
 
 class App extends React.Component {
 
@@ -26,7 +27,6 @@ class App extends React.Component {
   }
 
   render () {
-    console.log('setTitle in APP', this.setTitle);
     return (
       <div className="container">
         <div className="row">
@@ -34,7 +34,7 @@ class App extends React.Component {
             <Title title={this.state.title} />
             <Nav blog={blog} />
 
-            { this.props.children }
+            { window.location.pathname.includes("/blog/") ? <Blog blog={blog} /> : null }
 
           </div>
           <div className="six columns">
