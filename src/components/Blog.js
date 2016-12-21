@@ -1,12 +1,23 @@
 import React from 'react'
 
-// Blog may need to accept a JSX string for each blog entry
-// When on the blog route, the URL and the
-
 const Blog = (props) => {
+
+  const endsWith = (str, suffix) => {
+    return str.indexOf(suffix, str.length - suffix.length) !== -1
+  }
+
+  const currentEntry = props.blog.filter(item => {
+    return endsWith(window.location.pathname, item.slug)
+  })
+
+  const createMarkup = () => {
+    return {__html: currentEntry[0].bodyHTML}
+  }
+
+  console.log({currentEntry});
+
   return (
-    <article className="body-copy">
-      { props.html }
+    <article className="body-copy" dangerouslySetInnerHTML={createMarkup()}>
     </article>
   )
 }

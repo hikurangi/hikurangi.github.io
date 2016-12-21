@@ -1,13 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router'
 
-import '../../styles/main.css' // temporary css import
+import '../../public/styles/main.css' // temporary css import
 
 // temporary data seed
 import '../data/blog.js'
 
 const Nav = (props) => {
-  console.log({props});
   return (
     <nav>
       <ul id="list-style">
@@ -20,7 +19,7 @@ const Nav = (props) => {
               {
                 props.blog.map((item, index) => {
                   return (
-                    <Link to={item.slug} key={index} className="button dropbtn block-button" >{item.title}</Link>
+                    <Link key={index} to={"/blog/" + item.slug} className="button dropbtn block-button" >{item.title}</Link>
                   )
                 })
               }

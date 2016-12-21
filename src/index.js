@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Router, Route, hashHistory } from 'react-router'
+import { Router, Route, browserHistory } from 'react-router'
 
 import App from './components/App'
 import About from './components/About'
@@ -9,10 +9,10 @@ import Blog from './components/Blog'
 import './index.css';
 
 const routes = (
-  <Router history={hashHistory}>
+  <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <Route path="/about" component={About} />
-      <Route path="/blog/:blogTitle" component={Blog} />
+      <Route path="about" component={About} />
+      <Route path="blog/:blogTitle" component={Blog} />
     </Route>
   </Router>
 )
