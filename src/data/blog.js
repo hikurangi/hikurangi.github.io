@@ -85,21 +85,21 @@ const blog = [{
 {
   "title": "Cultural Blog 6 - Self Mastery",
   "slug": "c6-control",
-  "bodyHTML": "",
+  "bodyHTML": "<h4>When programming, what are some of your triggers? What causes a disproportionate emotional response?<\/h4><p>Getting stuck, particularly when I'm tired, is a source of frustration at certain points.<\/p><h4>How did you find the Siberian North Railroad exercise (Stop, Breathe, Notice, Reflect, Respond)?<\/h4><p>It seems pretty great. I found it hard to run in a 'lab' environment. I am hoping that I remember the system for a time when I'll need it in the real world. Thankfully, programming thus far has not been a source of great frustration, so much. It's more of a battle of staying focused for me.<\/p>",
   "timestamp": "",
   "image-url": ""
 },
 {
   "title": "Cultural Blog 7 - Motivation",
   "slug": "c7-motivation",
-  "bodyHTML": "",
+  "bodyHTML": "<h4>From Chapter Six of <em>Search Inside Yourself:<\/em><br/>How does life look through the 'pleasure, passion and purpose' lens?<\/h4><p>It's a good way of looking at things, and I'm lucky enough to already lead a life where pleasure, passion and purpose align and work never feels like working.<\/p><h4>From the 'discovering values and higher purpose' exercise:<br/>What are your core values?<\/h4><p>Treating others as I'd like to be treated is a pretty solid, timeless and universally applicable practice. That's probably the number one core value. Beyond that, general kindness and decency. Living in a way which could inspire others, and leaving the world or at least each situation, a little better than it was when I entered it.<\/p><h4>What do you stand for?<\/h4><p>Uh. A strong quarter note lock in the rhythm section. World peace.<\/p><h4>How did you find the resilience ideas and meditation exercise?<\/h4><p>I think they were great. The idea of emotional and cognitive resilience as different but complimentary skills helps a lot, and the insight that negative experiences outshine positive ones 3:1 is also a very beneficial thing to know.<\/p>",
   "timestamp": "",
   "image-url": ""
 },
 {
   "title": "Cultural Blog 8 - Connecting",
   "slug": "c8-connecting",
-  "bodyHTML": "",
+  "bodyHTML": "<h4>From Chapter Seven of <em>Search Inside Yourself:<\/em> Have you tried using any of the insight and techniques for growing trust and sincerity? How did it go?<\/h4><p>They sound like long-term projects, which I look forward to engaging in.<\/p><h4>Try empathic listening - how did it go?<\/h4><p>It sounds really powerful and I look forward to giving it a go when I have the time and opportunity!<\/p><h4>How did you find the loving kindness meditation?<\/h4><p>Both really interesting and challenging. It's quite a radical concept and counter to the \"if you don't have anything good to say, don't say it\"-style avoidance approach to objectionable people which is more common in our society.<\/p><h4>Finally, the political awareness exercise<\/h4><h6><em>1. Think of a difficult situation from your present or past, when there was some conflict or disagreement, something real, something that has some meaning and potency for you.<\/em><\/h6><p>Band disagreements.<\/p><h6><em>2. Describe the situation as though you are 100 percent correct and reasonable. Do that either in writing or by talking about it in a monologue.<\/em><\/h6><p>In my experience, <em>x<\/em> has always been a successful strategy. All the evidence I've provided supports that.<\/p><h6><em>3. Now describe the situation as though the other person is (or the other people are) 100 percent correct and reasonable. Do that either in writing or by talking about it in a monologue.<\/em><\/h6><p>But this case is different!<\/p>",
   "timestamp": "",
   "image-url": ""
 }
