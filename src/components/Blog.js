@@ -1,6 +1,7 @@
-import React from 'react'
+import React    from 'react'
+import { blog } from '../data'
 
-const Blog = (props) => {
+const Blog = () => {
 
   // helper function
   const endsWith = (str, suffix) => {
@@ -8,7 +9,7 @@ const Blog = (props) => {
   }
 
   // using the helper function above, find the current entry which has a slug property which ends with the part matching the current url slug
-  const currentEntry = props.blog.filter(item => {
+  const currentEntry = blog.filter(item => {
     return endsWith(window.location.pathname, item.slug)
   })
 

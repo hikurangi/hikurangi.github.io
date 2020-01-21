@@ -7,7 +7,7 @@ import CoverPhoto from './CoverPhoto'
 import Blog       from './Blog'
 
 // replace with API call to blog backend
-import blog from '../data/blog'
+import { blog }   from '../data'
 
 class App extends React.Component {
 

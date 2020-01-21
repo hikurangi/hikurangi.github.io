@@ -1,10 +1,8 @@
 import React    from 'react'
 import { Link } from 'react-router-dom'
+import { blog } from '../data'
 
-// temporary data seed
-import '../data/blog.js'
-
-const Nav = (props) => {
+const Nav = () => {
   return (
     <nav>
       <ul id="list-style">
@@ -15,7 +13,7 @@ const Nav = (props) => {
             <button className="button dropbtn">Blog</button>
             <div className="dropdown-content">
               {
-                props.blog.map((item, index) => {
+                blog.map((item, index) => {
                   return (
                     <Link key={index} to={"/blog/" + item.slug} className="button dropbtn block-button" >{item.title}</Link>
                   )
