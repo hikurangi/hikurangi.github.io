@@ -1,14 +1,10 @@
-import React from 'react'
+import React      from 'react'
 
 // children
-import Nav from './Nav'
-import Title from './Title'
+import Nav        from './Nav'
+import Title      from './Title'
 import CoverPhoto from './CoverPhoto'
-import Blog from './Blog'
-
-// styling, assets
-// import logo from '../assets/logo.svg'
-// import '../App.css'
+import Blog       from './Blog'
 
 // replace with API call to blog backend
 import blog from '../data/blog'

@@ -1,3 +1,8 @@
+import './index.css'
+import './main.css'
+import './skeleton.css'
+import './normalize.css'
+
 import React    from 'react'
 import ReactDOM from 'react-dom'
 import {
@@ -9,8 +14,6 @@ import {
 import App      from './components/App'
 import About    from './components/About'
 import Blog     from './components/Blog'
-
-import './index.css'
 
 const routes = (
   <BrowserRouter>
