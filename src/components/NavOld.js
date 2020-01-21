@@ -1,7 +1,7 @@
-import React from 'react'
+import React    from 'react'
 import { Link } from 'react-router'
 
-import '../../styles/main.css' // temporary css import
+// import '../../styles/main.css' // temporary css import
 
 const Nav = () => {
   return (
