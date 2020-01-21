@@ -11,13 +11,15 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "react-scripts": "0.7.0"
+    "github-pages": "^3.0.2"
   },
   "dependencies": {
-    "react": "^15.3.2",
-    "react-dom": "^15.3.2",
-    "react-tap-event-plugin": "^1.0.0",
-    "react-router": "*"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.3.0",
+    "react-tap-event-plugin": "^3.0.3"
   },
   "repository": {
     "type": "git",
@@ -35,5 +37,17 @@
   "bugs": {
     "url": "https://github.com/hikurangi/hikurangi.github.io/issues"
   },
-  "homepage": "https://hikurangi.surge.sh"
+  "homepage": "https://hikurangi.surge.sh",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }

@@ -1,7 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router'
-
-import '../../public/styles/main.css' // temporary css import
+import React    from 'react'
+import { Link } from 'react-router-dom'
 
 // temporary data seed
 import '../data/blog.js'
