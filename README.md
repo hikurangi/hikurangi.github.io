@@ -1,4 +1,4 @@
-# hikurangi.github.io // hikurangi.surge.sh
+# hikurangi.github.io
 
 ## my personal website
 
