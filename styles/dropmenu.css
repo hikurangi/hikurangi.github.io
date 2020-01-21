@@ -1,0 +1,20 @@
+
+.dropbtn {
+    width: 100%;
+}
+
+
+.dropdown {
+   position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
