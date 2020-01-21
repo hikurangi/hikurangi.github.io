@@ -103,71 +103,71 @@ code {
 }
 
 .cover0 {
-    background-image: url("../img/cover0.jpg"); /* index */
+    background-image: url("./img/cover0.jpg"); /* index */
 }
 
 .cover1 {
-    background-image: url("../img/cover1.jpg"); /*c1a time and habits*/
+    background-image: url("./img/cover1.jpg"); /*c1a time and habits*/
 }
 
 .cover2 {
-    background-image: url("../img/cover2.jpg"); /*c1b time and habits*/
+    background-image: url("./img/cover2.jpg"); /*c1b time and habits*/
 }
 
 .cover3 {
-    background-image: url("../img/cover3.jpg");
+    background-image: url("./img/cover3.jpg");
 }
 
 .cover4 {
-    background-image: url("../img/cover4.jpg");
+    background-image: url("./img/cover4.jpg");
 }
 
 .cover5 {
-    background-image: url("../img/cover5.jpg");
+    background-image: url("./img/cover5.jpg");
 }
 
 .cover6 {
-    background-image: url("../img/cover6.jpg"); /* c2 emotional intelligence */
+    background-image: url("./img/cover6.jpg"); /* c2 emotional intelligence */
 }
 
 .cover7 {
-    background-image: url("../img/cover7.jpg");
+    background-image: url("./img/cover7.jpg");
 }
 
 .cover8 {
-    background-image: url("../img/cover8.jpg"); /* c3 meditation process */
+    background-image: url("./img/cover8.jpg"); /* c3 meditation process */
 }
 
 .cover9 {
-    background-image: url("../img/cover9.jpg"); /* t4 javascript basics */
+    background-image: url("./img/cover9.jpg"); /* t4 javascript basics */
 }
 
 .cover10 {
-    background-image: url("../img/cover10.jpg"); /* t5 problem solving */
+    background-image: url("./img/cover10.jpg"); /* t5 problem solving */
 }
 
 .cover11 {
-    background-image: url("../img/cover11.jpg"); /* c4 daily mindfulness */
+    background-image: url("./img/cover11.jpg"); /* c4 daily mindfulness */
 }
 
 .cover12 {
-    background-image: url("../img/cover12.jpg"); /* c5 self confidence */
+    background-image: url("./img/cover12.jpg"); /* c5 self confidence */
 }
 
 .cover13 {
-    background-image: url("../img/cover13.jpg"); /* t6 javascript language */
+    background-image: url("./img/cover13.jpg"); /* t6 javascript language */
 }
 
 .cover14 {
-    background-image: url("../img/cover14.jpg"); /* ??? */
+    background-image: url("./img/cover14.jpg"); /* ??? */
 }
 
 .cover15 {
-    background-image: url("../img/cover15.jpg"); /* c-7 ??? */
+    background-image: url("./img/cover15.jpg"); /* c-7 ??? */
 }
 
 .cover16 {
-    background-image: url("../img/cover16.jpg"); /* c-8 connecting */
+    background-image: url("./img/cover16.jpg"); /* c-8 connecting */
 }
 
 .cover-photo.cover3 {
