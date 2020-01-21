@@ -15,8 +15,8 @@ import Blog     from './components/Blog'
 const routes = (
   <BrowserRouter>
     <Route path="/" component={App}/>
-    <Route path="about" component={About} />
-    <Route path="blog/:blogTitle" component={Blog} />
+    <Route path="/about" component={About} />
+    <Route path="/blog/:blogTitle" component={Blog} />
   </BrowserRouter>
 )
 
