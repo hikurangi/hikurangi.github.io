@@ -1,7 +1,4 @@
 import './index.css'
-import './main.css'
-import './skeleton.css'
-import './normalize.css'
 
 import React    from 'react'
 import ReactDOM from 'react-dom'
