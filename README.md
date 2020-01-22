@@ -1,5 +1,5 @@
-# hikurangi.github.io
+# hikurangi.github.io / hikurangi.co
 
 ## my personal website
 
-Built using [create-react-app](https://github.com/facebookincubator/create-react-app).
+Built from scratch with React and Webpack.
