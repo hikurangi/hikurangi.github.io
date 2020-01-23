@@ -36,4 +36,8 @@ const Text = () =>
 
 export default Text
 
-function makeLink (href, content) { return a({ href }, [content]) }
+function makeLink (href, content) { return a({
+  href,
+  target: '_blank',
+  rel: 'noopener noreferrer'
+}, [content]) }
