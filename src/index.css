@@ -1,3 +1,34 @@
-#root {
-  background-color: red !important;
+/* pseudoclass exclusively for storing variables */
+:root {
+  /* see https://margaret2.github.io/pantone-colors/ */
+  /* please don't sue me, colour nazis */
+  
+  /* main black */
+  --anthracite: #28282d;
+  
+  /* background */
+  --bright-white: #f4f5f0;
+  /* --gardenia: #f1e8df; */
+}
+
+* {
+  color: var(--anthracite);
+}
+
+html {
+  background-color: var(--bright-white);
+}
+
+a, h1, h2, h3, h4, h5, h6, p {
+  font-family: 'EB Garamond', serif;
+}
+
+a {
+  font-style: italic;
+  text-decoration: none; 
+  /* color: var(--anthracite); */
+}
+
+b {
+  font-weight: 600;
 }
