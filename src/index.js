@@ -1,9 +1,12 @@
 import './index.css'
+
 import React    from 'react'
 import ReactDOM from 'react-dom'
+import { h }    from 'react-hyperscript-helpers'
 
-console.log('js change')
+import Content  from './components/Content'
+import Layout   from './components/Layout'
 
-const App = <div>Coming soon!!!!</div>
+const App = h(Layout, [h(Content)])
 
 ReactDOM.render(App, document.getElementById('root'))
