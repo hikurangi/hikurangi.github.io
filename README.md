@@ -1,4 +1,4 @@
-# hikurangi.github.io / hikurangi.co
+# [hikurangi.github.io](https://hikurangi.github.io) / [hikurangi.co](https://hikurangi.co)
 
 ## my personal website
 
