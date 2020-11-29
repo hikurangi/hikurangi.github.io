@@ -1,7 +1,7 @@
 import React        from 'react'
 import { p, em, a } from 'react-hyperscript-helpers'
 
-const email  = 'h@hikurangi.co'
+const email  = 'hikurangi@gmail.com'
 const styles = {
   mainText: {
     fontSize: '48px'
