@@ -7,7 +7,7 @@
     "build": "webpack",
     "watch": "webpack --watch",
     "start": "webpack serve",
-    "deploy": "./build.sh && gh-pages -b master -d build"
+    "deploy": "./build.sh && gh-pages -b main -d build"
   },
   "dependencies": {
     "react": "^16.12.0",
