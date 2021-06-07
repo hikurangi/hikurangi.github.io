@@ -14,7 +14,7 @@ const Text = () =>
     makeLink('https://nzmusician.co.nz/features/,get-yer-kit-off-hikurangi-schaverien-kaa/', 'beats the heck out of the drums'),
     ' and ',
     makeLink('https://github.com/hikurangi', 'writes clean code'),
-    ' . He\'s mostly based in Wellington, NZ. You can reach him via ',
+    '. He\'s mostly based in Wellington, NZ. You can reach him via ',
     makeLink(`mailto:${email}`, em(email)),
     ' or find him ',
     makeLink('https://instagram.com/ignarukih', 'on'),
