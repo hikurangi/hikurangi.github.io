@@ -4,10 +4,10 @@
   "private": true,
   "description": "my website and portfolio",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode production",
     "watch": "webpack --watch",
     "start": "webpack serve",
-    "deploy": "./build.sh && gh-pages -b main -d build"
+    "deploy": "./build.sh && gh-pages --branch main -d build"
   },
   "dependencies": {
     "react": "^17.0.1",
