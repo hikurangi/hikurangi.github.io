@@ -8,7 +8,7 @@ const styles = {
   }
 }
 
-const Text = () => (
+const Index = () => (
   <p style={styles.mainText} children={[
     "Hikurangi Schaverien-Kaa ",
     <Link href="https://nzmusician.co.nz/features/get-yer-kit-off-hikurangi-schaverien-kaa/" >beats the heck out of the drums</Link >,
@@ -25,7 +25,7 @@ const Text = () => (
     "."
   ]} />
 )
-export default Text
+export default Index
 
 type LinkChildren = string | React.ReactElement
 
