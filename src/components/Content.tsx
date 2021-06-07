@@ -9,8 +9,9 @@ const styles = {
 }
 
 const Text = () => (
-  <p style={styles.mainText} children={["Hikurangi Schaverien-Kaa ",
-    <Link href="https://nzmusician.co.nz/features/get-yer-kit-off-hikurangi-schaverien-kaa/" > beats the heck out of the drums</Link >,
+  <p style={styles.mainText} children={[
+    "Hikurangi Schaverien-Kaa ",
+    <Link href="https://nzmusician.co.nz/features/get-yer-kit-off-hikurangi-schaverien-kaa/" >beats the heck out of the drums</Link >,
     " and ",
     <Link href="https://github.com/hikurangi">writes clean code</Link>,
     ". He\'s mostly based in Wellington, NZ. You can reach him via ",
@@ -21,7 +22,8 @@ const Text = () => (
     <Link href="https://soundcloud.com/ignarukih">the</Link>,
     " ",
     <Link href="https://www.linkedin.com/in/ignarukih/">socials</Link>,
-    "."]}></p>
+    "."
+  ]} />
 )
 export default Text
 
