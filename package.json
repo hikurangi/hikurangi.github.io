@@ -5,7 +5,7 @@
   "description": "my website and portfolio",
   "scripts": {
     "build": "webpack --mode production",
-    "watch": "webpack --watch",
+    "dev": "webpack --watch",
     "start": "webpack serve",
     "deploy": "./build.sh && gh-pages --branch main -d build"
   },
