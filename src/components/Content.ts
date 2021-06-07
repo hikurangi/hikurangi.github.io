@@ -11,7 +11,7 @@ const styles = {
 const Text = () =>
   p({ style: styles.mainText }, [
     'Hikurangi Schaverien-Kaa ',
-    Link('https://nzmusician.co.nz/features/,get-yer-kit-off-hikurangi-schaverien-kaa/', 'beats the heck out of the drums'),
+    Link('https://nzmusician.co.nz/features/get-yer-kit-off-hikurangi-schaverien-kaa/', 'beats the heck out of the drums'),
     ' and ',
     Link('https://github.com/hikurangi', 'writes clean code'),
     '. He\'s mostly based in Wellington, NZ. You can reach him via ',

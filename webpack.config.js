@@ -5,7 +5,7 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const { NODE_ENV } = process.env
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './src/index.ts',
   devServer: {
     contentBase: './dist',
     hot: true,
@@ -26,14 +26,9 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|jsx)$/,
+        test: /\.tsx?$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env', '@babel/preset-react']
-          }
-        }
+        use: 'ts-loader'
       },
       {
         test: /\.css$/,
