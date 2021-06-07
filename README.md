@@ -4,6 +4,9 @@
 
 Built from scratch with React and Webpack.
 
+### To run the page locally
+1. `npm run start`
+
 ### To update the page
 1. Clone the repo, install all the things.
 2. Make changes.

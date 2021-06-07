@@ -8,7 +8,8 @@ module.exports = {
   entry: './src/index.js',
   devServer: {
     contentBase: './dist',
-    hot: true
+    hot: true,
+    open: true
   },
   devtool: 'inline-source-map',
   mode: NODE_ENV === 'production' ? NODE_ENV : 'development',
