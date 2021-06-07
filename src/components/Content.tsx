@@ -14,7 +14,7 @@ const Text = () => (
     <Link href="https://nzmusician.co.nz/features/get-yer-kit-off-hikurangi-schaverien-kaa/" >beats the heck out of the drums</Link >,
     " and ",
     <Link href="https://github.com/hikurangi">writes clean code</Link>,
-    ". He\'s mostly based in Wellington, NZ. You can reach him via ",
+    ". He\'s mostly based in Wellington, Aotearoa (NZ). You can reach him via ",
     <Link href={`mailto:${email}`}><em>{email}</em></Link>,
     " or find him ",
     <Link href="https://instagram.com/ignarukih">on</Link>,
