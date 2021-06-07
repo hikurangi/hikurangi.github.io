@@ -4,10 +4,10 @@
   "private": true,
   "description": "my website and portfolio",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --mode production",
     "watch": "webpack --watch",
     "start": "webpack serve",
-    "deploy": "./build.sh && gh-pages -b main -d build"
+    "deploy": "./build.sh && gh-pages --branch main -d build"
   },
   "dependencies": {
     "react": "^17.0.1",
@@ -46,16 +46,11 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.14.3",
-    "@babel/core": "^7.14.3",
-    "@babel/preset-env": "^7.12.7",
-    "@babel/preset-react": "^7.12.7",
-    "@babel/preset-typescript": "^7.13.0",
     "@types/react": "^17.0.9",
     "@types/react-dom": "^17.0.6",
     "@types/react-router": "^5.1.14",
     "@types/react-router-dom": "^5.1.7",
-    "babel-loader": "^8.2.2",
+    "@types/webpack": "^4.41.29",
     "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^5.0.1",
     "gh-pages": "^3.1.0",
